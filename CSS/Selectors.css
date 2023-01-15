@@ -1,0 +1,22 @@
+/* CSS Element Selectors */
+p{
+    /*Selects all para in HTML  */
+}
+div{
+    /*Selects all DIV in HTML  */
+}
+/* ----------------------------------------------- */
+/* ID selector */
+#idname{
+    /* Selects the element with this id */
+}
+/* ------------------------------------------------- */
+/* Class Selector */
+.className{
+    /* Selects all the element with this class name  */
+}
+/* ------------------------------------------------- */
+/* Grouping selector */
+footer,span{
+    /* Selects footer and span both  */
+}

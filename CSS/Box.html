@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        .container{
+            box-sizing: border-box;
+            /* This is used to keep the size of the box constant  */
+            /* So even if we add padding the size won't increase on its own  */
+            padding: 20px;
+            border: 5px solid black;
+            margin: 10px;
+            padding-top: 1px;
+        }
+        h3{
+            padding: 0px;
+            height:1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>This is Heading</h3>
+        <p id="first">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, repellat veritatis enim eum iste sequi quisquam possimus iusto sint cumque quas in illum quis?
+        </p>
+    </div>
+    <div class="container">
+        <h3>This is Heading</h3>
+        <p id="Second">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, repellat veritatis enim eum iste sequi quisquam possimus iusto sint cumque quas in illum quis?
+        </p>
+    </div>
+    <div class="container">
+        <h3>This is Heading</h3>
+        <p id="Third">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, repellat veritatis enim eum iste sequi quisquam possimus iusto sint cumque quas in illum quis?
+        </p>
+    </div>
+    <div class="container">
+        <h3>This is Heading</h3>
+        <p id="Fourth">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, repellat veritatis enim eum iste sequi quisquam possimus iusto sint cumque quas in illum quis?
+        </p>
+    </div>
+</body>
+</html>
